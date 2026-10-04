@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="J KB Statements의 Google 권한, 데이터 사용 목적, 로컬 보관과 사용자 삭제 관리 기준을 안내합니다.">
+  <title>개인정보처리방침 | J KB Statements</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f5f7fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.8; overflow-wrap: anywhere; }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 24px; }
+    header { border-bottom: 1px solid #dce2eb; background: #fff; }
+    header .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { font-size: 1.05rem; font-weight: 750; color: #172033; text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .95rem; }
+    a { color: #1559a6; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid #1559a6; outline-offset: 4px; border-radius: 2px; }
+    nav [aria-current="page"] { font-weight: 750; }
+    main { padding-top: 20px; padding-bottom: 36px; }
+    h1 { font-size: clamp(1.75rem, 5vw, 2.5rem); line-height: 1.35; letter-spacing: -.035em; margin: 12px 0 20px; }
+    h2 { font-size: 1.25rem; line-height: 1.5; margin: 0 0 12px; }
+    p { margin: 0 0 14px; }
+    ul { margin: 8px 0 0; padding-left: 1.4em; }
+    li + li { margin-top: 8px; }
+    section { margin-top: 22px; padding: 24px; border: 1px solid #dce2eb; border-radius: 14px; background: #fff; }
+    .eyebrow, .date { color: #526079; font-size: .9rem; }
+    .notice { border-left: 4px solid #1559a6; }
+    .notice p:last-child, section p:last-child { margin-bottom: 0; }
+    footer { border-top: 1px solid #dce2eb; font-size: .9rem; color: #526079; }
+    .skip { position: absolute; left: 16px; top: -100px; padding: 8px 12px; background: #fff; z-index: 1; }
+    .skip:focus { top: 8px; }
+    @media (max-width: 520px) { .wrap { padding: 20px 16px; } section { padding: 20px 18px; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">J KB Statements</a>
+      <nav aria-label="안내 페이지">
+        <a href="index.html">앱 안내</a>
+        <a href="privacy.html" aria-current="page">개인정보처리방침</a>
+        <a href="terms.html">이용약관</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="main">
+    <p class="eyebrow">J KB Statements</p>
+    <h1>개인정보처리방침</h1>
+    <p class="date">시행일: <time datetime="2026-10-05">2026년 10월 5일</time></p>
+    <p>이 방침은 macOS 개인용 로컬 명세서 정리 도구인 J KB Statements와 그 공개 안내 사이트의 데이터 처리 기준을 설명합니다. 앱은 현재 개발·검증 중이며 무인 예약 실행은 활성화되어 있지 않습니다.</p>
+
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">1. 처리 목적</h2>
+      <p>사용자가 요청하고 동의한 KB 명세서 정리와 본인의 기존 Google 개인 지출 시트 관리에 필요한 정보만 해당 목적으로 처리합니다. 결제·송금·금융상품 거래·신용평가를 목적으로 사용하지 않습니다.</p>
+    </section>
+
+    <section aria-labelledby="permissions">
+      <h2 id="permissions">2. Google 권한과 실제 사용 범위</h2>
+      <p>전용 Google OAuth 연결에 Gmail 읽기 전용 권한과 Sheets 권한을 사용합니다. 로그인과 동의는 사용자가 Google 화면에서 직접 진행합니다.</p>
+      <p>Gmail 읽기 전용 권한은 전체 메일을 읽을 수 있는 범위이고, Sheets 권한은 Google 시트를 관리할 수 있는 범위입니다. 프로그램에서는 승인된 KB 메일과 사용자의 기존 개인 지출 시트 처리로 사용 목적을 한정합니다. 이 제한은 프로그램의 처리 기준이며, Google 권한 자체가 특정 메일이나 한 시트만 접근하도록 물리적으로 차단한다는 뜻은 아닙니다.</p>
+      <p>프로그램은 메일을 수정·전송·삭제하지 않으며 Google 시트를 생성·삭제하지 않습니다.</p>
+    </section>
+
+    <section aria-labelledby="data">
+      <h2 id="data">3. 정보별 처리·보관 위치</h2>
+      <ul>
+        <li><strong>암호화 HTML 첨부·XLSX 원본:</strong> 해당 사용자의 로컬 금융 공간에서 제한된 권한으로 보관합니다. 이 안내 사이트에 업로드하거나 공개하지 않습니다.</li>
+        <li><strong>복호화한 HTML:</strong> 메모리에서만 처리하며 별도 파일로 보관하지 않습니다.</li>
+        <li><strong>거래 행·금융 금액:</strong> 본인의 기존 Google 개인 지출 시트로만 전송하여 관리합니다.</li>
+        <li><strong>토큰·인증값:</strong> macOS 로그인 키체인에 보관하고, 필요한 처리 과정에서는 private pipe와 메모리를 사용합니다.</li>
+        <li><strong>실행 로그:</strong> 거래·금액이 없는 처리 상태·건수·해시 등의 실행 메타데이터만 기록합니다. 금융 원문·메일 원문·금액·토큰 등 인증값을 로그에 기록하지 않습니다.</li>
+      </ul>
+    </section>
+
+    <section class="notice" aria-labelledby="limited-use">
+      <h2 id="limited-use">4. Google API 데이터의 제한적 사용</h2>
+      <p>J KB Statements의 Google API 데이터 사용과 본인의 Google 시트로의 전송은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>의 Limited Use 요건을 따릅니다. 사용자가 요청하고 동의한 명세서 정리·기존 개인 지출 시트 관리 목적에 한정하여 사용합니다.</p>
+      <p>금융 내용을 ChatGPT 또는 다른 AI 분석에 보내는 기능은 없습니다. 데이터를 광고에 이용하거나 판매하거나 타인에게 전송하지 않습니다.</p>
+    </section>
+
+    <section aria-labelledby="retention">
+      <h2 id="retention">5. 데이터 수명·삭제와 연결 해제</h2>
+      <p>데이터의 보관 기간과 삭제는 사용자가 로컬 원본 위치·Google 시트·macOS 로그인 키체인에서 각각 직접 관리합니다. 프로그램이 이 데이터를 자동으로 영구 삭제하지는 않습니다.</p>
+      <p>Google 연결은 <a href="https://myaccount.google.com/connections">Google 계정의 연결 관리</a>에서 직접 해제할 수 있습니다. 연결 해제와 이미 보관한 로컬 원본·Google 시트 데이터·키체인 정보의 관리는 별개의 작업입니다.</p>
+    </section>
+
+    <section aria-labelledby="site">
+      <h2 id="site">6. 공개 안내 사이트</h2>
+      <p>이 사이트는 정보성 페이지이며 앱 코드·명세서 원본을 배포하지 않습니다. 업로드·로그인·입력 폼·스크립트·쿠키·분석 SDK를 제공하지 않으며 자체 방문자 추적을 하지 않습니다.</p>
+      <p>GitHub Pages 호스팅 운영 과정에서 표준 서버 로그가 처리될 수 있습니다. 호스팅의 서버 로그 처리와 이 사이트 자체의 추적 기능은 구분됩니다.</p>
+    </section>
+
+    <section aria-labelledby="changes">
+      <h2 id="changes">7. 방침 변경</h2>
+      <p>방침 내용이 변경되면 이 페이지를 최신화하여 변경 내용을 안내하고, 새 동의를 받은 뒤 변경된 처리 기준을 적용합니다.</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">8. 문의</h2>
+      <p>문의는 <a href="https://github.com/najisoo/j-kb-statements-info/issues">공개 저장소의 이슈</a>에 남길 수 있습니다. 이슈는 공개되므로 금융 정보·명세서 원본·메일 내용·인증값을 게시하지 마세요.</p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p><a href="index.html">앱 안내</a> · <a href="terms.html">이용약관</a></p>
+      <p>J KB Statements · 개인정보처리방침 시행일 2026-10-05</p>
+    </div>
+  </footer>
+</body>
+</html>
